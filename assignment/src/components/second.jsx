@@ -1,22 +1,27 @@
 import React from "react";
 import "./second.css";
+import graph1 from "../public/Graph1.png";
+import graph2 from "../public/Graph2.png";
+import graph3 from "../public/Graph3.png";
+import graph4 from "../public/Graph4.png";
+import guaranteeIcon from "../public/second.png";
 
 const Second = () => {
   const cards = [
     {
-      img: "../public/graph1.png",
+      img: graph1,
       text: "₹28,000+ in Just 3 Days of Launch",
     },
     {
-      img: "../public/graph2.png",
+      img: graph2,
       text: "Crossed ₹86,000+ in the First Week",
     },
     {
-      img: "../public/graph3.png",
+      img: graph3,
       text: "Hit ₹1 Lakh+ Milestone Within 15 Days",
     },
     {
-      img: "../public/graph4.png",
+      img: graph4,
       text: "Scaled Beyond ₹2 Lakh in Just One Month",
     },
   ];
@@ -41,7 +46,7 @@ const Second = () => {
 
       <div className="guarantee-section">
         <img
-          src="../public/second.png"
+          src={guaranteeIcon}
           alt="Money Back Guarantee"
           className="guarantee-icon"
         />

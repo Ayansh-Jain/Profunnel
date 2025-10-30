@@ -1,5 +1,6 @@
 import React from "react";
 import "./eighth.css";
+import mentorImage from "../public/first.png";
 
 
 export default function Eighth() {
@@ -7,7 +8,7 @@ export default function Eighth() {
     <section className="mentor-section">
       <div className="mentor-container">
         <div className="mentor-image">
-          <img src="../public/first.png" alt="Mentor" />
+          <img src={mentorImage} alt="Mentor" />
         </div>
 
         <div className="mentor-content">

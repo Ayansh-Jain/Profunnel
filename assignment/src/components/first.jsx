@@ -1,5 +1,6 @@
 
 import './first.css';
+import mentorImage from '../public/first.png';
 
 const First = () => {
   return (
@@ -42,7 +43,7 @@ const First = () => {
       <div className="webinar-right">
         <p className="quote">“Launch your 7-Figure Store — Now!”</p>
         <div className="image-box">
-          <img src="../public/first.png" alt="Dropshipping Dashboard" />
+          <img src={mentorImage} alt="Dropshipping Dashboard" />
         </div>
         <p className="trained-text">
           Trained Over 10,000+ Students Who Are Now Running Their Own Online Businesses
