@@ -24,7 +24,7 @@ export default function Eighth() {
             students launch profitable online stores using my proven systems. I’ll teach you how to find winning products, build converting stores, and scale effortlessly with automation — even if you’re starting from <span className="highlight">zero</span>.
           </p>
 
-          <button className="mentor-button">Yes! I'm in for the Webinar</button>
+          <button className="mentor-button" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")} >Yes! I'm in for the Webinar</button>
         </div>
       </div>
     </section>

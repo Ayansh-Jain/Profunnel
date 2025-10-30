@@ -44,7 +44,7 @@ const Third = () => {
         👉 <span className="highlight-text">Enroll now and make your “someday” happen today.</span>
       </p>
 
-      <button className="cta-button">Yes! I'm in for the Webinar</button>
+      <button className="cta-button" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")}>Yes! I'm in for the Webinar</button>
     </div>
   );
 };
