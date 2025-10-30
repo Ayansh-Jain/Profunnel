@@ -155,3 +155,9 @@
     margin-left: 0;
   }
 }
+@media (max-width: 480px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    padding: 1px;
+  }
+}
