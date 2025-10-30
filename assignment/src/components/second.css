@@ -1,0 +1,157 @@
+.dashboard-container {
+  background: linear-gradient(180deg, #c9efc6 0%, #b6e3a9 100%);
+  text-align: center;
+  padding: 3rem 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --- Header --- */
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #004d25;
+}
+
+.highlight {
+  color: #d32f2f;
+}
+
+.dashboard-subtitle {
+  color: #007a3d;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* --- Cards --- */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --- Buttons under cards --- */
+.card-btn {
+  background-color: #007a3d;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  margin: 1rem auto 1.5rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  animation: bounce 1.8s infinite;
+  transition: background 0.3s ease;
+}
+
+.card-btn:hover {
+  background-color: #00a350;
+}
+
+/* --- Guarantee Section --- */
+.guarantee-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: #003a35;
+  color: white;
+  border-radius: 20px;
+  padding: 1rem;
+  margin: 3rem auto;
+  max-width: 1000px;
+}
+
+.guarantee-icon {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+
+.guarantee-text {
+  max-width: 600px;
+  margin-left: 2rem;
+}
+
+.guarantee-text h2 {
+  color: #ffcc00;
+  font-size: 1.8rem;
+}
+
+.quote {
+  font-style: italic;
+  color: #a0d8b3;
+}
+
+/* --- CTA Button --- */
+.cta-button {
+  background: #007a3d;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  animation: bounce 1.5s infinite;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #00a350;
+}
+
+/* --- Bounce Animation --- */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .dashboard-title {
+    font-size: 2rem;
+  }
+
+  .dashboard-subtitle {
+    font-size: 1rem;
+  }
+
+  .guarantee-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .guarantee-text {
+    margin-left: 0;
+  }
+}
