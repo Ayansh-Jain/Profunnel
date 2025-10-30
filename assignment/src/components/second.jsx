@@ -4,19 +4,19 @@ import "./second.css";
 const Second = () => {
   const cards = [
     {
-      img: "/public/graph1.png",
+      img: "../public/graph1.png",
       text: "₹28,000+ in Just 3 Days of Launch",
     },
     {
-      img: "/public/graph2.png",
+      img: "../public/graph2.png",
       text: "Crossed ₹86,000+ in the First Week",
     },
     {
-      img: "/public/graph3.png",
+      img: "../public/graph3.png",
       text: "Hit ₹1 Lakh+ Milestone Within 15 Days",
     },
     {
-      img: "/public/graph4.png",
+      img: "../public/graph4.png",
       text: "Scaled Beyond ₹2 Lakh in Just One Month",
     },
   ];
@@ -41,7 +41,7 @@ const Second = () => {
 
       <div className="guarantee-section">
         <img
-          src="/public/second.png"
+          src="../public/second.png"
           alt="Money Back Guarantee"
           className="guarantee-icon"
         />
