@@ -10,6 +10,7 @@ import Seventh from './components/seventh.jsx'
 import Eighth from './components/eighth.jsx'
 import Ninth from './components/ninth.jsx'
 import Tenth from './components/tenth.jsx'
+import Eleventh from './components/eleventh.jsx'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Eighth />
       <Ninth />
       <Tenth />
+      <Eleventh />
     </>
   )
 }

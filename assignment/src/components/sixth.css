@@ -240,7 +240,7 @@
 /* Small Mobile Devices */
 @media (max-width: 480px) {
   .challenge-section {
-    padding: 30px 15px;
+    padding: 20px 15px;
   }
 
   .challenge-title {
@@ -249,7 +249,7 @@
   }
 
   .challenge-box {
-    padding: 18px;
+    padding: 0px;
   }
 
   .box-title {

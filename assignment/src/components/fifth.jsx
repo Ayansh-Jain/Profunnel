@@ -36,6 +36,9 @@ export default function Fifth() {
     },
   ];
 
+  // Calculate the progress percentage
+  const progressPercent = ((activeStage - 1) / (stages.length - 1)) * 100;
+
   return (
     <div className="three-stage-section">
       <h2 className="section-title">
@@ -46,6 +49,11 @@ export default function Fifth() {
 
       <div className="progress-bar">
         <div className="progress-line"></div>
+        <div
+          className="progress-line-fill"
+          style={{ width: `${progressPercent}%` }}
+        ></div>
+
         {[1, 2, 3].map((num) => (
           <div key={num} className="stage-indicator">
             <div

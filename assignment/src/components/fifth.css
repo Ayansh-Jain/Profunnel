@@ -13,7 +13,7 @@
 }
 
 .highlight {
-  color: #facc15; /* yellow */
+  color: #facc15;
 }
 
 /* Progress bar */
@@ -32,9 +32,22 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: #666;
+  background-color: #444;
   transform: translateY(-50%);
   z-index: 0;
+  border-radius: 2px;
+}
+
+.progress-line-fill {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 3px;
+  background-color: #facc15;
+  transform: translateY(-50%);
+  z-index: 1;
+  border-radius: 2px;
+  transition: width 0.6s ease-in-out;
 }
 
 .stage-indicator {
@@ -63,14 +76,13 @@
 .circle.active {
   background-color: #facc15;
   color: black;
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 .circle.completed {
   border-color: #facc15;
   color: #facc15;
 }
-
 
 .stage-label {
   margin-top: 10px;
