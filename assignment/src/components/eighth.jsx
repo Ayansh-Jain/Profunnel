@@ -7,7 +7,7 @@ export default function Eighth() {
     <section className="mentor-section">
       <div className="mentor-container">
         <div className="mentor-image">
-          <img src="../public/first.png" alt="Mentor" />
+          <img src="/public/first.png" alt="Mentor" />
         </div>
 
         <div className="mentor-content">
