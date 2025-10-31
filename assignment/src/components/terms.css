@@ -1,0 +1,55 @@
+.terms-container {
+  background: linear-gradient(135deg, #004b43, #00a676);
+  height: fit-content;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.terms-heading {
+  color: #facc15;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.terms-subtitle {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.terms-container p {
+  max-width: 800px;
+  margin: 15px auto;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #e4e4e4;
+  text-align: left;
+}
+
+.terms-container a {
+  color: #facc15;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.terms-container a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .terms-heading {
+    font-size: 2rem;
+  }
+
+  .terms-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .terms-container p {
+    font-size: 0.95rem;
+  }
+}

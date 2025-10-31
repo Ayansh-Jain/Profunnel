@@ -62,7 +62,7 @@ const Second = () => {
         </div>
       </div>
 
-      <button className="cta-button">Yes! I'm in for the Webinar</button>
+      <button className="cta-button">Enroll Now For Just ₹49!</button>
     </div>
   );
 };

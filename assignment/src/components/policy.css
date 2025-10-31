@@ -1,0 +1,30 @@
+.policy-container {
+  background: linear-gradient(90deg, #03383b, #089c72);
+  height: fit-content;
+  padding: 100px 20%;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8;
+}
+
+.policy-title {
+  color: #ffb800;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  color: #ffb800;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+strong {
+  font-weight: 600;
+}

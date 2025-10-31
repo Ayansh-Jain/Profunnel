@@ -1,15 +1,16 @@
 import React from "react";
 import "./tenth.css";
+import { Link } from "react-router-dom";
 
 export default function Tenth() {
   return (
     <footer className="footer">
       <div className="footer-links">
-        <a href="#">Terms & Conditions</a> |{" "}
-        <a href="#">Privacy Policy</a> |{" "}
-        <a href="#">Refund & Cancellation Policy</a> |{" "}
-        <a href="#">Shipping Policy</a> |{" "}
-        <a href="#">Contact Us</a>
+        <Link to="/terms">Terms & Conditions</Link>|{" "}
+        <Link to="/privacy">Privacy Policy</Link> |{" "}
+        <Link to="/refund">Refund & Cancellation Policy</Link> |{" "}
+        <Link to="/shipping">Shipping Policy</Link> |{" "}
+        <Link to="/contact">Contact Us</Link>
       </div>
 
       <p className="footer-copy">

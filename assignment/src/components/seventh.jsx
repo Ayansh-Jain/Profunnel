@@ -52,7 +52,7 @@ const Seventh = () => {
         ))}
       </div>
 
-      <button className="join-btn" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")}>Yes! I'm in for the Webinar</button>
+      <button className="join-btn" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")}>Enroll Now For Just ₹49!</button>
     </section>
   );
 };

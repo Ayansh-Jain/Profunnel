@@ -48,7 +48,7 @@ const First = () => {
         <p className="trained-text">
           Trained Over 10,000+ Students Who Are Now Running Their Own Online Businesses
         </p>
-        <button className="webinar-btn" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")}>Yes! I'm in for the Webinar</button>
+        <button className="webinar-btn" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")}>Enroll Now For Just ₹49</button>
       </div>
     </div>
   );

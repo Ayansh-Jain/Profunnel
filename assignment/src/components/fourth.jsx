@@ -69,7 +69,7 @@ const Fourth = () => {
           </div>
         </div>
 
-        <button className="learn-btn" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")}>Yes! I'm in for the Webinar</button>
+        <button className="learn-btn" onClick={() => window.open("https://live.skillsfavour.com/payment-link/68fc8be867ee3b46ba6a357c", "_blank")}>Enroll Now For Just ₹49!</button>
       </div>
     </section>
   );

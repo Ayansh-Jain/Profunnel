@@ -1,0 +1,49 @@
+.policy-section {
+  background: linear-gradient(90deg, #0b4c47, #0a8a60);
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.policy-container {
+  max-width: 900px;
+}
+
+.policy-heading {
+  color: #ffb800;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.policy-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #ffb800;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.highlight:hover {
+  text-decoration: underline;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .policy-heading {
+    font-size: 2rem;
+  }
+  .policy-text {
+    font-size: 1rem;
+  }
+}
