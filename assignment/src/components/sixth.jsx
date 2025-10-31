@@ -33,8 +33,7 @@ export default function Sixth() {
 
         {/* Center rotating loader */}
         <div className="center-loader">
-          <div className="outer-circle red"></div>
-          <div className="outer-circle green"></div>
+          <div className="outer-circle"></div>
           <div className="arrow-btn">➜</div>
         </div>
 
